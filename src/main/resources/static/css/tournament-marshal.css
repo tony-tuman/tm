@@ -1,0 +1,95 @@
+body {
+  font-family: Tahoma, sans-serif;
+  margin: 0;
+}
+
+.UserView-title {
+  font-size: 24px;
+  padding: 0 24px;
+}
+
+.UserView-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #f0f0f0;
+}
+
+.UserItem {
+  margin: 0;
+  padding: 8px 24px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.UserItem-userName {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+.UserItem-email {
+  font-size: 14px;
+  margin-top: 4px;
+  font-style: italic;
+  color: #888;
+}
+.UserItem-description {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+
+.NewUserForm {
+  padding: 8px 24px;
+}
+input,
+textarea {
+  display: block;
+  width: 240px;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  font-size: 14px;
+}
+
+.standardStyle {
+  padding: 8px 24px;
+}
+.standardStyle > input,
+.standardStyle > textarea {
+  display: block;
+  width: 240px;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: 1px solid #888;
+  font-size: 14px;
+}
+
+
+/*
+  Styles for navbar
+*/
+.navBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+}
+
+.navBar li {
+    float: left;
+}
+
+.navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navBar li a:hover {
+    background-color: #111;
+}
